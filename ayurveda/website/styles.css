@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    background-image: url("../assets/bgimg.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2{
+    color: #50791d;
+    font-size: 44px;
+    position: absolute;
+    left: 64px;
+    top: 8px;
+
+}
+h6{
+    color: #50791d;
+    font-size: 14px;
+    position: absolute;
+    left: 64px;
+    top: 72px;
+}
+
+
+.input-box {
+    position: absolute;
+    bottom: 32px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 750px;
+    height: 56px; 
+    border: 2px solid #466322; 
+    border-radius: 16px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box input[type="text"] {
+    width: calc(100% - 4px);
+    height: calc(100% - 4px); 
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent; 
+    color: #1e1e1e;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.input-box input[type="submit"] {
+    background-color: #ae7027;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1px;
+    align-items: right;
+    right:10%
+}
+
+.input-box input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+.response {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ai-message {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #393939;
+    text-align: left; 
+    margin-bottom: 12px;
+}
+
+
+.loading {
+    display: none;
+    position: relative;
+    margin-top: 10px; /* Adjust as needed */
+    text-align: center;
+}
+
+.message-container p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #393939;
+    overflow-y: auto;
+}
+
+.message-container {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 850px; 
+    background-color: rgba(240, 240, 240, 0); 
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: none;
+    border-radius: 8px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
